@@ -1,4 +1,9 @@
 {
+  "homepage": "http://KaitlinJKelley.github.io/checkpoint-api/db.json",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    },
   "dependencies": {
     "npm": "^7.9.0"
   },
